@@ -5,6 +5,17 @@ html, body {
     scroll-behavior: smooth;
 }
 
+main {
+    height: 100em;
+    background: rgb(187, 187, 187);
+    background: -moz-linear-gradient(180deg, rgba(187, 187, 187, 1) 50%, rgba(0, 104, 160, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(187, 187, 187, 1) 50%, rgba(0, 104, 160, 1) 100%);
+    background: linear-gradient(180deg, rgba(187, 187, 187, 1) 50%, rgba(0, 104, 160, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bbbbbb", endColorstr="#0068a0", GradientType=1);
+    /* https://cssgradient.io/ */
+    
+}
+
 p{
     display: inline-block;
 }
